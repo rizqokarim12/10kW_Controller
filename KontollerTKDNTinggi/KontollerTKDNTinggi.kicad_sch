@@ -5502,6 +5502,12 @@
 		(uuid "ae0dda14-d46d-478f-ae64-5c153e6f5e20")
 	)
 	(junction
+		(at 262.89 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0e05c0-7269-4114-830b-00d6a14dab2c")
+	)
+	(junction
 		(at 85.09 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6122,6 +6128,16 @@
 			(type default)
 		)
 		(uuid "1470b667-8fae-495a-b636-a5d0d56b2442")
+	)
+	(wire
+		(pts
+			(xy 257.81 130.81) (xy 262.89 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14920ac6-77d1-4e47-a7cb-e1d713a04303")
 	)
 	(wire
 		(pts
@@ -7765,7 +7781,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 130.81) (xy 267.97 130.81)
+			(xy 262.89 130.81) (xy 267.97 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11819,6 +11835,74 @@
 			(project "KontollerTKDNTinggi"
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09e20f60-f88c-4049-a1e2-3589d0d4b197")
+		(property "Reference" "R95"
+			(at 262.89 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k1"
+			(at 265.43 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.668 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fe53297-a31b-4317-8621-4386e9a34c04")
+		)
+		(pin "2"
+			(uuid "f1cf87eb-4ecc-41f0-8cad-f50c38b9b1dd")
+		)
+		(instances
+			(project "KontollerTKDNTinggi"
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
+					(reference "R95")
 					(unit 1)
 				)
 			)
