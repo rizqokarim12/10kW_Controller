@@ -5135,6 +5135,16 @@
 		)
 		(uuid "93fff526-31db-4bc0-b766-27900f14db70")
 	)
+	(text "FREE PALESTINE"
+		(exclude_from_sim no)
+		(at 278.384 160.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4db2959-f0dc-410f-b1ee-85a2fe92ca00")
+	)
 	(junction
 		(at 48.26 26.67)
 		(diameter 0)
