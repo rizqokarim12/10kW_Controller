@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b8c67688-7b35-4c67-b953-478f2378c784")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 117.348 45.085)
+		(size 18.796 22.479)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09595169-b3d4-4a80-9ade-458caa2f0fa0")
+		(property "Sheetname" "SafetyCircuit"
+			(at 117.348 44.3734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SafetyCircuit.kicad_sch"
+			(at 117.348 68.1486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controlBoard"
+				(path "/b8c67688-7b35-4c67-b953-478f2378c784"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
