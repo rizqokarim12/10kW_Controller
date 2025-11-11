@@ -432,6 +432,240 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Current:ACS758xCB-150U-PFF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ACS758xCB-150U-PFF"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Sensor_Current:Allegro_CB_PFF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 26.7mV/A, CB-5 PFF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "hall effect current monitor sensor isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Allegro*CB*PFF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ACS758xCB-150U-PFF_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.175) (xy -2.54 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.175) (xy -2.54 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ACS758xCB-150U-PFF_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IP+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IP-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VIOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -738,6 +972,131 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1550,6 +1909,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 33.02) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134efb91-56b4-4fbb-8f83-a40102967d5c")
+	)
+	(wire
+		(pts
 			(xy 54.61 81.28) (xy 71.12 81.28)
 		)
 		(stroke
@@ -1577,6 +1946,16 @@
 			(type default)
 		)
 		(uuid "15b48ad8-2e42-4bc9-b60d-c902603aebdc")
+	)
+	(wire
+		(pts
+			(xy 132.08 34.29) (xy 132.08 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c4719d-449b-4ab7-8f4c-1c40b5dc9364")
 	)
 	(wire
 		(pts
@@ -1717,6 +2096,16 @@
 			(type default)
 		)
 		(uuid "2601407f-92cf-4a46-94f3-9ccbf6cf593f")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 46.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fe6733-e193-4dd3-9449-6d98f30f8e02")
 	)
 	(wire
 		(pts
@@ -1987,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "471fd072-bd5d-44da-990c-294f35bcbc09")
+	)
+	(wire
+		(pts
+			(xy 49.53 21.59) (xy 50.8 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479ae248-2468-400b-99eb-c53e62e48c8d")
 	)
 	(wire
 		(pts
@@ -2310,16 +2709,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 35.56) (xy 132.08 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69b47fdd-c14a-47b6-85e7-d9df132145a1")
-	)
-	(wire
-		(pts
 			(xy 227.33 38.1) (xy 232.41 38.1)
 		)
 		(stroke
@@ -2387,6 +2776,16 @@
 			(type default)
 		)
 		(uuid "72a6e110-96ce-46b5-b1f4-ee013c5a0fbf")
+	)
+	(wire
+		(pts
+			(xy 214.63 35.56) (xy 214.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760363e6-f6f2-45ff-848d-a3e8e20ec69d")
 	)
 	(wire
 		(pts
@@ -2660,6 +3059,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 44.45) (xy 46.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1d5cef-e7cf-4998-91a6-e6a73c386c8b")
+	)
+	(wire
+		(pts
 			(xy 214.63 38.1) (xy 217.17 38.1)
 		)
 		(stroke
@@ -2667,6 +3076,16 @@
 			(type default)
 		)
 		(uuid "8f3644e7-3a0c-4b8e-9595-6410837a243c")
+	)
+	(wire
+		(pts
+			(xy 40.64 33.02) (xy 41.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b7e78f-9ba0-4713-af71-234183446805")
 	)
 	(wire
 		(pts
@@ -2700,6 +3119,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e33ce2-3897-4d86-9d89-233f05143f69")
+	)
+	(wire
+		(pts
 			(xy 132.08 38.1) (xy 138.43 38.1)
 		)
 		(stroke
@@ -2727,16 +3156,6 @@
 			(type default)
 		)
 		(uuid "9aa9b14f-6976-4bb3-80ef-b86461570356")
-	)
-	(wire
-		(pts
-			(xy 214.63 36.83) (xy 214.63 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b5a9141-a848-40fd-9cf8-baae994694a0")
 	)
 	(wire
 		(pts
@@ -3010,6 +3429,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 22.86) (xy 49.53 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfbe7e1-2ce9-4b90-9394-0f58e19637db")
+	)
+	(wire
+		(pts
 			(xy 107.95 38.1) (xy 107.95 39.37)
 		)
 		(stroke
@@ -3067,6 +3496,16 @@
 			(type default)
 		)
 		(uuid "c45a6b4e-2795-4420-a8fb-db53b1d56f8d")
+	)
+	(wire
+		(pts
+			(xy 52.07 44.45) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c520dd24-f076-4465-a53a-95b5dc24f56c")
 	)
 	(wire
 		(pts
@@ -3508,19 +3947,88 @@
 		)
 		(uuid "fec199b5-9812-4cab-994d-8700baafb9d0")
 	)
+	(global_label "CTRL+"
+		(shape input)
+		(at 53.34 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "078dd758-76b3-446b-b253-f7150dc44a82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.4333 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL+"
+		(shape input)
+		(at 214.63 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "144b21f1-d18f-465e-9eec-705123977e4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V+"
+		(shape input)
+		(at 45.72 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c64c8192-86cc-47c0-80c2-b6188e508029")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.0738 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL+"
 		(shape input)
 		(at 158.75 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
-		(uuid "4c28152b-a9ce-4ddf-9382-4916276a4d37")
+		(uuid "da11785e-ed28-49d9-9cf4-46b4ac9a0bfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.3962 54.61 0)
+			(at 167.8433 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,41 +4038,20 @@
 			)
 		)
 	)
-	(global_label "V+"
+	(global_label "CTRL+"
 		(shape input)
-		(at 214.63 36.83 90)
+		(at 132.08 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
-		(uuid "9ec7b4ed-9bf4-45df-9a92-8084632e6800")
+		(uuid "e1e12b9f-b6a4-4793-aca7-e9fcc81ce344")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 31.1838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V+"
-		(shape input)
-		(at 132.08 35.56 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c64c8192-86cc-47c0-80c2-b6188e508029")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 29.9138 90)
+			(at 141.1733 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,6 +4083,18 @@
 			(justify right)
 		)
 		(uuid "1368d2f2-b9cc-40cf-ae1f-46e39a254594")
+	)
+	(hierarchical_label "DC_Current"
+		(shape input)
+		(at 50.8 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "2927392f-c8a7-4db4-b662-1d9d87d0f394")
 	)
 	(hierarchical_label "DS_C"
 		(shape input)
@@ -5796,6 +6295,71 @@
 			(project "KontrollerTKDNTinggi"
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7/3b4d4446-9672-4cfa-be7c-f71310f9d256"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 40.64 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "490e9b5d-8639-4258-a92f-b9607961b845")
+		(property "Reference" "#PWR061"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 40.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ba6173-9d73-44e4-b2b3-60c818894f4f")
+		)
+		(instances
+			(project ""
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7/3b4d4446-9672-4cfa-be7c-f71310f9d256"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9153,6 +9717,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Current:ACS758xCB-150U-PFF")
+		(at 49.53 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a04119-3f95-43be-b9cf-d52068568d01")
+		(property "Reference" "U5"
+			(at 67.31 27.5746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACS758xCB-150U-PFF"
+			(at 67.31 30.1146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sensor_Current:Allegro_CB_PFF"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 26.7mV/A, CB-5 PFF"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d92be7eb-e13a-432a-a29f-c896ab690369")
+		)
+		(pin "1"
+			(uuid "6c66692f-c6c4-4826-9d52-1e33d2425be1")
+		)
+		(pin "5"
+			(uuid "78815c08-9db0-4328-8382-aa48c6a522b2")
+		)
+		(pin "3"
+			(uuid "c5b98789-cd9e-4f76-885e-279e09e820f8")
+		)
+		(pin "2"
+			(uuid "4d696ffb-07d2-45d6-a8b3-bde6c6c76a36")
+		)
+		(instances
+			(project ""
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7/3b4d4446-9672-4cfa-be7c-f71310f9d256"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 212.09 41.91 0)
 		(unit 1)
@@ -9315,6 +9956,71 @@
 			(project "KontrollerTKDNTinggi"
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7/3b4d4446-9672-4cfa-be7c-f71310f9d256"
 					(reference "Q30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f17d047c-585b-46cd-8c76-dff733a81d69")
+		(property "Reference" "#PWR062"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "330fc878-19d7-4a02-baa5-6db28c9904da")
+		)
+		(instances
+			(project ""
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7/3b4d4446-9672-4cfa-be7c-f71310f9d256"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
