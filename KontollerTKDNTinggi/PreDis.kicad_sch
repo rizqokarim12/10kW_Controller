@@ -3213,7 +3213,7 @@
 		)
 		(uuid "db3445be-261b-4528-ba00-40497c5a75e1")
 	)
-	(hierarchical_label "CTRL"
+	(hierarchical_label "Prech"
 		(shape input)
 		(at 93.98 40.64 90)
 		(effects
@@ -3631,7 +3631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 92.71 75.438 90)
 			(effects
 				(font
@@ -4580,7 +4580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.62x3.51mm"
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -4985,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.62x3.51mm"
 			(at 124.46 110.49 0)
 			(effects
 				(font
@@ -5247,7 +5247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.62x3.51mm"
 			(at 123.19 90.17 0)
 			(effects
 				(font
