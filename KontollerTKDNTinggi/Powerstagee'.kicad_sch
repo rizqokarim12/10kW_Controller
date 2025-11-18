@@ -3993,6 +3993,28 @@
 			)
 		)
 	)
+	(global_label "DC_Current"
+		(shape input)
+		(at 50.8 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60c7dd61-e301-45c9-b871-7ff85ed39eed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.2475 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V+"
 		(shape input)
 		(at 45.72 44.45 180)
@@ -4083,18 +4105,6 @@
 			(justify right)
 		)
 		(uuid "1368d2f2-b9cc-40cf-ae1f-46e39a254594")
-	)
-	(hierarchical_label "DC_Current"
-		(shape input)
-		(at 50.8 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "2927392f-c8a7-4db4-b662-1d9d87d0f394")
 	)
 	(hierarchical_label "DS_C"
 		(shape input)
