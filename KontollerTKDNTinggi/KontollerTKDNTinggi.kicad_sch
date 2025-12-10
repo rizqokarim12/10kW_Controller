@@ -7331,6 +7331,16 @@
 		)
 		(uuid fce7b271-a8cf-4639-8e21-d04ad06ded5d)
 	)
+	(text "pppppp\n"
+		(exclude_from_sim no)
+		(at 153.162 325.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05cdaca5-f73b-4507-b923-ef8a08636bb1")
+	)
 	(text "Voltage Regulator"
 		(exclude_from_sim no)
 		(at 136.652 182.88 0)
