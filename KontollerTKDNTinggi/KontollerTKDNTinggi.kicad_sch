@@ -7458,6 +7458,12 @@
 		(uuid "d4db2959-f0dc-410f-b1ee-85a2fe92ca00")
 	)
 	(junction
+		(at 316.23 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0024cc45-d18a-479c-9323-0f99fa72a6ed")
+	)
+	(junction
 		(at 283.21 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7596,6 +7602,12 @@
 		(uuid "39ee0b86-8d86-4a2d-b4b1-7669ab3c6de1")
 	)
 	(junction
+		(at 251.46 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b635dbb-103f-48e0-83c4-63ccc8e9f9d6")
+	)
+	(junction
 		(at 381 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7662,6 +7674,12 @@
 		(uuid "529a16de-c804-4028-a814-3eda0c114b12")
 	)
 	(junction
+		(at 283.21 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52da3195-ef22-4114-9f1b-1036f79c32c6")
+	)
+	(junction
 		(at 458.47 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7698,12 +7716,6 @@
 		(uuid "62eb92a8-d867-45a1-bb79-8a378c3f23f4")
 	)
 	(junction
-		(at 283.21 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63881ce5-54ee-4f01-baf8-6533f1cf9aa3")
-	)
-	(junction
 		(at 200.66 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7738,12 +7750,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c8ca66c-a8c4-43cf-aeb0-d00303e8575c")
-	)
-	(junction
-		(at 316.23 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d19d47d-e8d7-4325-bcd1-6b0bd4802dc7")
 	)
 	(junction
 		(at 458.47 170.18)
@@ -7914,12 +7920,6 @@
 		(uuid "a73608d4-18db-419b-8d72-660d1703860c")
 	)
 	(junction
-		(at 251.46 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a938025f-19cf-4ca6-a5f0-b5a5ff52811e")
-	)
-	(junction
 		(at 492.76 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7990,6 +7990,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0702c4a-2ba9-460e-a3af-745987cc8a02")
+	)
+	(junction
+		(at 477.52 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c18cd608-d238-4c37-8040-9f917cbd7056")
 	)
 	(junction
 		(at 81.28 99.06)
@@ -11138,6 +11144,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 189.23) (xy 283.21 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d13016-294a-4215-bff2-abc7e812ee67")
+	)
+	(wire
+		(pts
 			(xy 375.92 213.36) (xy 381 213.36)
 		)
 		(stroke
@@ -11165,6 +11181,16 @@
 			(type default)
 		)
 		(uuid "88b28451-a00b-47e7-aed8-18c4bdd721aa")
+	)
+	(wire
+		(pts
+			(xy 477.52 170.18) (xy 477.52 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8917a47b-c64e-4468-879f-f67b23f8da87")
 	)
 	(wire
 		(pts
@@ -11205,6 +11231,16 @@
 			(type default)
 		)
 		(uuid "89fd7d36-d96c-498e-b58e-fb431e1a699d")
+	)
+	(wire
+		(pts
+			(xy 251.46 189.23) (xy 251.46 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac0d900-aa0e-4a8f-b054-37f83ca33c67")
 	)
 	(wire
 		(pts
@@ -11658,6 +11694,16 @@
 	)
 	(wire
 		(pts
+			(xy 480.06 162.56) (xy 488.95 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06096b4-b6fe-4db5-bf98-14f64a61e1e9")
+	)
+	(wire
+		(pts
 			(xy 176.53 200.66) (xy 167.64 200.66)
 		)
 		(stroke
@@ -11695,16 +11741,6 @@
 			(type default)
 		)
 		(uuid "a498c8e3-1a32-4228-826a-c9330a0a3882")
-	)
-	(wire
-		(pts
-			(xy 480.06 162.56) (xy 488.95 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4bbc927-0aa0-4a59-ba0c-2eecbb64d18e")
 	)
 	(wire
 		(pts
@@ -11925,6 +11961,16 @@
 			(type default)
 		)
 		(uuid "ad260df8-3dde-4aa0-8f1d-42e94ca149c5")
+	)
+	(wire
+		(pts
+			(xy 316.23 189.23) (xy 316.23 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad48d0cc-90b2-4566-8ce5-03a8acec7bc1")
 	)
 	(wire
 		(pts
@@ -12778,7 +12824,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 148.59) (xy 496.57 149.86)
+			(xy 496.57 148.59) (xy 496.57 157.48)
 		)
 		(stroke
 			(width 0)
@@ -13800,6 +13846,16 @@
 			(justify left bottom)
 		)
 		(uuid "1dd3da50-2d80-4cc2-bfec-3610c3cc52b8")
+	)
+	(label "Error"
+		(at 481.33 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e6edef5-fa9e-442a-a3c5-def30587a712")
 	)
 	(label "CAN_L"
 		(at 497.84 308.61 0)
@@ -16002,73 +16058,6 @@
 			(project ""
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 496.57 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08181882-ff4d-46c4-9c16-546ad07eb7cc")
-		(property "Reference" "R68"
-			(at 494.538 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 496.57 153.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 498.348 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 496.57 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 496.57 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dac784d7-0cc5-4292-af71-19cf596cf053")
-		)
-		(pin "1"
-			(uuid "5e9a7064-e25b-4be5-aaa4-0dd4ef79166f")
-		)
-		(instances
-			(project "KontollerTKDNTinggi"
-				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
-					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -18533,6 +18522,71 @@
 			(project "KontollerTKDNTinggi"
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 316.23 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24713169-f192-47e8-a3c5-85f8f32d520d")
+		(property "Reference" "#PWR079"
+			(at 316.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 316.23 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 316.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3077e085-2efd-4115-aa7d-f340beeb7f61")
+		)
+		(instances
+			(project "KontollerTKDNTinggi"
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -21037,6 +21091,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 208.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "494019cc-6168-4535-8365-f16afe67494a")
+		(property "Reference" "#PWR082"
+			(at 254 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 211.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85d3c199-e95e-4fc1-894a-bfe43ebd843e")
+		)
+		(instances
+			(project "KontollerTKDNTinggi"
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 328.93 0)
 		(unit 1)
@@ -22046,6 +22165,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 318.77 208.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5adf8f9d-d19e-474b-a4ba-6ae1f76e82a7")
+		(property "Reference" "#PWR080"
+			(at 318.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 318.77 211.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 318.77 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1ab5180-13fc-47c5-bf7d-5677d473ab4a")
+		)
+		(instances
+			(project "KontollerTKDNTinggi"
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 367.03 100.33 0)
 		(unit 1)
@@ -22109,71 +22293,6 @@
 			(project "KontollerTKDNTinggi"
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 283.21 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d4001a6-6183-4bc2-82c4-26826ad7e099")
-		(property "Reference" "#PWR092"
-			(at 283.21 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 283.21 186.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 283.21 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53943d64-5791-4f23-8967-6d25781a7165")
-		)
-		(instances
-			(project "KontollerTKDNTinggi"
-				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -22275,7 +22394,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "100"
 			(at 493.014 146.05 90)
 			(effects
 				(font
@@ -23140,71 +23259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 316.23 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a4f5c90-b2d7-445f-9294-b11d754fe5a7")
-		(property "Reference" "#PWR096"
-			(at 316.23 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 316.23 186.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 316.23 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f975bc53-aae3-4b1a-b5d4-d4770d4a83e3")
-		)
-		(instances
-			(project "KontollerTKDNTinggi"
-				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 453.39 148.59 90)
 		(unit 1)
@@ -23611,6 +23665,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 283.21 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "769c56ce-34f4-4ff9-84e0-5f675cd003fa")
+		(property "Reference" "#PWR078"
+			(at 283.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 283.21 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 283.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bae28ed5-a8b7-4e12-96ff-4fd1f0e7a6dc")
+		)
+		(instances
+			(project "KontollerTKDNTinggi"
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 492.76 304.8 0)
 		(unit 1)
@@ -23741,6 +23860,71 @@
 			(project "KontollerTKDNTinggi"
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 285.75 208.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79ff2efd-bbfc-4477-a93b-52afd77a9b73")
+		(property "Reference" "#PWR081"
+			(at 285.75 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 285.75 211.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 285.75 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70bb47d0-e26b-49f5-ab79-bfaf64fd75fa")
+		)
+		(instances
+			(project "KontollerTKDNTinggi"
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -24400,71 +24584,6 @@
 			(project ""
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 285.75 208.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "897923c2-d202-4116-8742-0a4cee5969bb")
-		(property "Reference" "#PWR093"
-			(at 285.75 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 285.75 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 285.75 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b009c013-0051-4d9e-b574-35262a6ee316")
-		)
-		(instances
-			(project "KontollerTKDNTinggi"
-				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
-					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -25142,71 +25261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97a77d11-d219-403c-9e7a-4352b1972341")
-		(property "Reference" "#PWR075"
-			(at 251.46 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 251.46 186.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3be468a2-352c-414e-8241-dff9fc100619")
-		)
-		(instances
-			(project "KontollerTKDNTinggi"
-				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 367.03 259.08 90)
 		(unit 1)
@@ -25684,6 +25738,71 @@
 			(project "KontollerTKDNTinggi"
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a764eb40-a963-40b5-89b5-140f8fcc7b18")
+		(property "Reference" "#PWR075"
+			(at 251.46 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e757033e-fcad-4a07-9a5a-9c58fd4c29af")
+		)
+		(instances
+			(project ""
+				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -29920,71 +30039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 318.77 208.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eee95eb4-0b3c-48e4-ba4a-60379368e264")
-		(property "Reference" "#PWR097"
-			(at 318.77 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 318.77 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 318.77 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9602ffb-b12a-4ba7-bbbe-3c88c70b3cf2")
-		)
-		(instances
-			(project "KontollerTKDNTinggi"
-				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 318.77 323.85 0)
 		(unit 1)
@@ -31135,71 +31189,6 @@
 			(project ""
 				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 254 208.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "feb9b0bd-8855-4ff8-9b01-e71f2077182e")
-		(property "Reference" "#PWR076"
-			(at 254 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 254 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 254 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64e20d6b-0503-4318-a5ec-0f1a582313a9")
-		)
-		(instances
-			(project "KontollerTKDNTinggi"
-				(path "/a2f3e1cd-dd27-43de-a976-b374057486e7"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)

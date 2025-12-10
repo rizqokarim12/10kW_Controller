@@ -1561,7 +1561,7 @@
 	(footprint "6473711-1:TE_6473711-1"
 		(layer "F.Cu")
 		(uuid "0bb6bffe-5e09-4745-8979-51efc2976f65")
-		(at 317 160.4375 90)
+		(at 317 161.25 90)
 		(property "Reference" "J13"
 			(at -26.83555 -5.14485 90)
 			(layer "F.SilkS")
@@ -70548,7 +70548,7 @@
 	)
 	(gr_rect
 		(start 58.42 31.695)
-		(end 344.045 203.750879)
+		(end 321.045 203.750879)
 		(stroke
 			(width 0.05)
 			(type default)

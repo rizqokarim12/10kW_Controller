@@ -3334,7 +3334,7 @@
 			)
 		)
 	)
-	(global_label "BATT"
+	(global_label "BATT+"
 		(shape input)
 		(at 91.44 43.18 90)
 		(fields_autoplaced yes)
@@ -3346,7 +3346,7 @@
 		)
 		(uuid "b1072cd0-6c7b-4c56-9702-a60710e24637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 35.901 90)
+			(at 91.44 34.3286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
